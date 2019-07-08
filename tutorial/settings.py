@@ -19,13 +19,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-with open('C:/Users/IVAN/PycharmProjects/tutorial/tutorial/sk') as f:
+#with open('C:/Users/IVAN/PycharmProjects/tutorial/tutorial/sk') as f:
+with open('/home/ubuntu/git/django_tutorial/sk') as f:
     SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-15-188-11-218.eu-west-3.compute.amazonaws.com']
 
 
 # Application definition
