@@ -122,7 +122,7 @@ STATIC_ROOT = '/home/ubuntu/git/django_tutorial/tutorial/static'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'tutorial/static'),
 )
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
