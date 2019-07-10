@@ -26,7 +26,8 @@ with open('/home/ubuntu/git/django_tutorial/sk') as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-15-188-11-218.eu-west-3.compute.amazonaws.com']
+#ALLOWED_HOSTS = ['ec2-15-188-11-218.eu-west-3.compute.amazonaws.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
